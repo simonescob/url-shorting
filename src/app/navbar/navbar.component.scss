@@ -1,0 +1,36 @@
+
+.navbar{
+	// border: solid;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	padding: 2.5% 13%;
+
+	li {
+		list-style-type: none;
+	}
+	li a {
+		color: var(--neutral_Grayish_Violet);
+		text-decoration: none;
+	}
+
+	&--left{
+		// border: solid;
+		display: flex;
+		align-items: center;
+	}
+
+	&--right{
+		// border: solid;
+		display: flex;
+		align-items: center;
+	}
+
+	.navbar__item{
+		// border: solid;
+		margin: 0 20px;
+		font-weight: 700;
+	}
+
+}

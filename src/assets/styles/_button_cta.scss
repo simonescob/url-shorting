@@ -1,0 +1,15 @@
+button.btn-cta-square{}
+
+button.btn-cta-circle{
+	background: none;
+	background: var(--primary_cyan);
+
+	border: none;
+	border-radius: 30px;
+
+	font-weight: 700;
+	color: white;
+
+	padding: 10px 20px;
+	cursor: pointer;
+}
